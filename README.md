@@ -1,27 +1,19 @@
-# Next.js + Tailwind CSS Example
+# ButterCMS Knowledge Base Clone
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This project contains the complete code for the demo Next.js knoweldge base built within the [How to Build a Knowledge Base with Next.js & ButterCMS](https://buttercms.com/blog/nextjs-knowledge-base-tutorial/) article published to the ButterCMS blog. 
 
-## Deploy your own
+Read the [article](https://buttercms.com/blog/nextjs-knowledge-base-tutorial/) to learn what a knowledge base is and the value it provides.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Requirements
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+To run this application, you will need;
+
+- A ButterCMS Read API Token to authenticate the connection from the Next.js application to ButterCMS through the Content API.
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- Clone the project from this repository.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+- Run the `yarn install` command to install dependencies.
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- Run `yarn start` to start the application.
